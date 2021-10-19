@@ -14,9 +14,7 @@ const io = new Server(serverHttp, {
   },
 });
 
-io.on('connection', socket => {
-  console.log(`User conectado no socket ${socket.id}`);
-});
+io.on('connection', socket => socket);
 
 app.use(cors());
 app.use(express.json());
