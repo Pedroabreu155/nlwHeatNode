@@ -14,6 +14,7 @@
     crossorigin="anonymous"></script>
   <script>
     const socket = io('http://localhost:4000')
+    socket.on('new_message', (data) => console.log(data))
   </script>
 </body>
 

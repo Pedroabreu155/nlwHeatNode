@@ -6,7 +6,7 @@
   "author": "Pedro Abreu <pedroliveirabreu@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules ./src/app.ts"
+    "dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules ./src/server.ts"
   },
   "dependencies": {
     "@prisma/client": "3.2.1",
